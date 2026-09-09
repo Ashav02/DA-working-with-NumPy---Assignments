@@ -5,6 +5,9 @@ import numpy as np
 
 zomato_prices = np.array([250,300,350,400,450,500])
 
-discounted_prices = zpmato_prices*0.09
+discounted_prices = np.multiply(zomato_prices, 0.09)
 
 final_bill = sum(discounted_prices)
+
+print(discounted_prices)
+print(final_bill)
